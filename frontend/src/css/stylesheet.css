@@ -1,0 +1,78 @@
+/* body{
+  position: absolute;
+   z-index: 5;
+   background-image: url("https://static.pexels.com/photos/606540/pexels-photo-606540.jpeg");
+ } */
+
+/* all main content (below navbar) */
+.main-content-listing-container{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  margin-left: 2%;
+  float: left;
+}
+
+.main-content{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+/* login and register pages */
+body > .grid {
+  height: 100%;
+}
+
+#welcomeForm {
+  margin-top: 4%;
+}
+
+.column {
+  max-width: 30%;
+}
+
+.sheer-div {
+  background-color: white;
+  opacity: .9;
+  padding: 4%;
+  border-radius: 7px;
+  margin: 4%;
+}
+
+.clear-div {
+  border-radius: 7px;
+  margin: 4%;
+}
+
+.sheer-div-less-padding {
+  background-color: white;
+  opacity: .9;
+  padding: 1.5%;
+  border-radius: 7px;
+
+}
+
+/* background photo */
+.background{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.background-login{
+  opacity: .3;
+  position: fixed;
+  height: 95%;
+  width: 100%;
+}
+
+.background-register{
+  opacity: .3;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.bring-to-front{
+  position: relative;
+  z-index: 4;
+}
